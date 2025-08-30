@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gravie = ({ className, text, description, points }) => {
     return (
-        <div className={'flex !pb-6 flex-col gap-4 border-3 border-black rounded-[20px] opacity-100 bg-white' + ' ' + className}>
+        <div className={'flex !pb-6 flex-col gap-4 border-3 border-black rounded-[20px] bg-white' + ' ' + className}>
             <div className="w-[320] h-[233.11px] flex items-center justify-center bg-gray-900/30 border-b-3 border-black rounded-[20px_20px_0_0]">
                 <span className="text-black font-bold text-xl">Product</span>
             </div>
