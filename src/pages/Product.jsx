@@ -1,8 +1,13 @@
 import React from 'react'
+import Spoilers from '../containers/Spoilers'
+import Ingredients from '../containers/Ingredients'
 
 const Product = () => {
     return (
-        <div>Product</div>
+        <main className='container'>
+            <Ingredients/>
+            <Spoilers/>
+        </main>
     )
 }
 

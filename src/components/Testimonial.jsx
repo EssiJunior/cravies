@@ -1,5 +1,4 @@
 import React from 'react'
-import { play } from '../assets/icons'
 import Star from './Star'
 
 const Testimonial = ({ className }) => {

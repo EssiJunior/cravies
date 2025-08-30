@@ -15,7 +15,7 @@ const WhyGravies = () => {
                 SO WHY GRAVIES ?
             </h2>
 
-            <div className="flex  gap-10 justify-center my-8 [&>div]:-rotate-[2deg] [&>div:nth-child(2)]:rotate-[2deg]">
+            <div className="flex overflow-hidden gap-10 justify-center my-8 [&>div]:-rotate-[2deg] [&>div:nth-child(2)]:rotate-[2deg]">
                 {GraviesData.map((gravies, index) => (
                     <Gravie key={index} text={gravies.text} description={gravies.description} points={gravies.points} />
                 ))}
