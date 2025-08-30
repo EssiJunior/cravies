@@ -1,5 +1,7 @@
 import food from'./cookie.svg'
 import user from './user.svg'
+import check from './check.svg'
+import star from './star.svg'
 import arrowRight from './arrow-right.svg'
 
-export {food, user, arrowRight}
+export {food, user, check, star, arrowRight}
