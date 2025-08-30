@@ -2,8 +2,10 @@ import React from 'react'
 import Spoilers from '../containers/Spoilers'
 import Ingredients from '../containers/Ingredients'
 import ImageWithPoints from '../containers/ImageWithPoints'
+import Prerequisites from '../containers/Prerequesites'
+import FAQ from '../containers/FAQ'
 
-const ingredients = [
+const favorites = [
     {
         title: "HIGH PROTEIN",
         description: "12g of protein per bowl",
@@ -33,9 +35,11 @@ const ingredients = [
 const Product = () => {
     return (
         <main className='container'>
+            <ImageWithPoints title={"YOUR FAVORITE CHILDHOOD CEREAL, ALL GROWN UP."} data={favorites} className={"!bg-pink"} />
             <Ingredients/>
-            <ImageWithPoints title={"YOUR FAVORITE CHILDHOOD CEREAL, ALL GROWN UP."} data={ingredients} className={"!bg-pink"} />
+            <Prerequisites />
             <Spoilers/>
+            <FAQ/>
         </main>
     )
 }
