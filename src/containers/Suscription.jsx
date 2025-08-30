@@ -25,7 +25,7 @@ const plans = [
 
 const Subscription = () => {
     return (
-        <section className='grid grid-cols-2 max-[990px]:grid-cols-1 gap-20 bg-white !py-25 !px-20 h-full'>
+        <section className='container-border grid grid-cols-2 max-[990px]:grid-cols-1 gap-20 bg-white !py-25 !px-20 h-full'>
             <ImageCard />
             <div className="grid gap-12 w-[min(600px,100%)]">
                 <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-start uppercase text-black">

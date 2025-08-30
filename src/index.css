@@ -64,3 +64,7 @@ a {
 .footer-text {
   @apply  font-normal text-[16px] leading-[24px] tracking-normal align-middle;
 }
+
+.container-border{
+  @apply border-t-3  border-black;
+}
