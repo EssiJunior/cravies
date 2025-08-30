@@ -11,12 +11,12 @@ const IngredientsData = [
 
 const Ingredients = () => {
     return (
-        <section className='container-border grid place-items-center gap-12 !py-25 !px-20 bg-yellow'>
+        <section className='overflow-hidden container-border grid place-items-center gap-12 !py-25 !px-20 bg-orange-yellow'>
             <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase text-green">
                 MADE WITH HIGH QUALITY, NATURAL INGREDIENTS.
             </h2>
 
-            <div className="flex flex-wrap gap-10 justify-center my-8">
+            <div className="flex overflow-hidden gap-10 justify-center my-8">
                 {IngredientsData.map((gravies, index) => (
                     <Gravie key={index} text={gravies.text} description={gravies.description}  />
                 ))}
