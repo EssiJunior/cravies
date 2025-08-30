@@ -3,6 +3,7 @@ import Hero from '../containers/Hero'
 import Flavours from '../containers/Flavours'
 import WhyGravies from '../containers/WhyGravies'
 import Spoilers from '../containers/Spoilers'
+import Subscription from '../containers/Suscription'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Flavours />
             <WhyGravies />
             <Spoilers />
+            <Subscription />
         </div>
     )
 }
