@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Wosker Demo';
+  src: url('./fonts/WoskerDemo.otf');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./fonts/SpaceGrotesk.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'SpaceGrotesk', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Wosker Demo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
