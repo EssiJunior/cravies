@@ -55,10 +55,6 @@ a {
   margin: 0 auto !important;
 }
 
-.active {
-  @apply border-b-2 border-black !pb-1;
-}
-
 .footer-title {
   @apply font-wosker font-normal text-[32px] leading-[36px] tracking-normal align-middle uppercase;
 }

@@ -13,7 +13,7 @@ const Header = () => {
     const currentPath = window.location.pathname;
 
     return (
-        <nav className='container flex items-center justify-between !py-4 !px-10 gap-10 bg-yellow'>
+        <nav className={`container flex items-center justify-between !py-4 !px-10 gap-10 ${currentPath === '/' ? 'bg-yellow' : 'bg-orange text-white'}`}>
             <a href="#">
                 <span className="font-bold text-4xl items-center">CRAVIES</span>
             </a>
@@ -22,7 +22,7 @@ const Header = () => {
                     <li key={link.href}>
                         <a
                             href={link.href}
-                            className={currentPath === link.href ? 'active' : ''}
+                            className={currentPath === link.href ?  currentPath === '/' ? 'border-b-2 border-black !pb-1' : 'border-b-2 border-white !pb-1' : ''}
                         >
                             {link.label}
                         </a>
