@@ -99,7 +99,7 @@ const videos = [
 const ProductOverview = () => {
 
     return (
-        <section className={'flex max-[990px]:flex-wrap gap-20 bg-orange !py-25 !px-20 h-full'}>
+        <section className={'flex max-[990px]:flex-wrap gap-20 bg-orange !py-25 !px-20 max-sm:!py-13 max-sm:!px-4 h-full'}>
 
 
             <ProductDisplayCarousel />

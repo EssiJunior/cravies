@@ -11,7 +11,7 @@ const IngredientsData = [
 
 const Ingredients = () => {
     return (
-        <section className='overflow-hidden container-border grid place-items-center gap-12 !py-25 !px-20 bg-orange-yellow'>
+        <section className='overflow-hidden container-border grid place-items-center gap-12 !py-25 !px-20 max-sm:!py-13 max-sm:!px-4  bg-orange-yellow'>
             <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase text-green">
                 MADE WITH HIGH QUALITY, NATURAL INGREDIENTS.
             </h2>

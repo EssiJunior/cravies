@@ -58,7 +58,7 @@ const nutritionRows = [
 
 const Comparatives = () => {
     return (
-        <section className='container-border grid place-items-center gap-12 !py-25 !px-20 bg-orange'>
+        <section className='container-border grid place-items-center gap-12 !py-25 !px-20 max-sm:!py-13 max-sm:!px-4  bg-orange'>
             <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase text-white">
                 WE'RE NOT THE SAME AS REGULAR CEREALS...
             </h2>

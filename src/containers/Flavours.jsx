@@ -10,7 +10,7 @@ const FlavourData = [
 ];
 const Flavours = () => {
     return (
-        <section className='grid place-items-center gap-12 !py-25 !px-20'>
+        <section className='grid place-items-center gap-12 !py-25 !px-20 max-sm:!py-13 max-sm:!px-4 '>
             <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase">
                 PICK YOUR FLAVOUR
             </h2>

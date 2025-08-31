@@ -69,7 +69,7 @@ const faqData = [
 const FAQ = () => {
 
     return (
-        <section className={'container-border flex max-[990px]:flex-wrap gap-20 bg-pink !py-25 !px-20 h-full'}>
+        <section className={'container-border flex max-[990px]:flex-wrap gap-20 bg-pink !py-25 !px-20 max-sm:!py-13 max-sm:!px-4  h-full'}>
             
             {/* TITLE AND DESCRIPTION - NEED HELP */}
             <div className="flex flex-col gap-12 max-[990px]:w-[clamp(600px,100%,1000px)] w-full ">
