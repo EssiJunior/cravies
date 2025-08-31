@@ -84,7 +84,7 @@ const FAQ = () => {
                 <DescriptionCard title={'NEED HELP?'} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quae."} className={'bg-orange-yellow !text-black max-[990px]:hidden'} />
             </div>
 
-            <AccordionContainer data={faqData} />
+            <AccordionContainer data={faqData} withWrapper/>
 
             {/* NEED HELP - that shows on mobile */}
             <div className="max-[990px]:!flex flex-col gap-12 max-[990px]:w-[clamp(600px,100%,1000px)] hidden max-[]: w-full ">

@@ -11,7 +11,7 @@ const Pack = ({
     className = ''
 }) => {
     return (
-        <div className={'relative w-full flex items-center gap-4 !p-2 border-3 border-peach rounded-[16px] ' + className}
+        <div className={'relative w-full flex items-center gap-4 !p-2 border-3 border-grey rounded-[16px] ' + className}
         onClick={() => setSelected(title)}>
             <div className="w-[84px] h-[84px] grid place-items-center bg-gray-400/30 rounded-[12px]">
                 <span className="text-black font-bold text-sm">Product</span>
