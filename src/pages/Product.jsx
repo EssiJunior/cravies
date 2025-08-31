@@ -5,6 +5,7 @@ import ImageWithPoints from '../containers/ImageWithPoints'
 import Prerequisites from '../containers/Prerequesites'
 import FAQ from '../containers/FAQ'
 import Satisfied from '../containers/Satisfied'
+import Comparatives from '../containers/Comparatives'
 
 const favorites = [
     {
@@ -39,6 +40,7 @@ const Product = () => {
             <ImageWithPoints title={"YOUR FAVORITE CHILDHOOD CEREAL, ALL GROWN UP."} data={favorites} className={"!bg-pink"} />
             <Ingredients/>
             <Prerequisites />
+            <Comparatives/>
             <Spoilers/>
             <FAQ/>
             <Satisfied/>
