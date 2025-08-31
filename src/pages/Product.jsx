@@ -4,6 +4,7 @@ import Ingredients from '../containers/Ingredients'
 import ImageWithPoints from '../containers/ImageWithPoints'
 import Prerequisites from '../containers/Prerequesites'
 import FAQ from '../containers/FAQ'
+import Satisfied from '../containers/Satisfied'
 
 const favorites = [
     {
@@ -40,6 +41,7 @@ const Product = () => {
             <Prerequisites />
             <Spoilers/>
             <FAQ/>
+            <Satisfied/>
         </main>
     )
 }
