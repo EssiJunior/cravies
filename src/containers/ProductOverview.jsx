@@ -10,6 +10,7 @@ import Button from '../components/Button';
 import CircularVideo from '../components/CircularVideo';
 import Frequencies from '../components/Selects/Frequency/Frequencies';
 import ProductDisplayCarousel from '../components/ProductDisplayCaroussel';
+import SectionHeading from '../components/Headings/Section';
 
 const packsData = [
     {
@@ -100,15 +101,14 @@ const ProductOverview = () => {
 
     return (
         <section className={'flex max-[990px]:flex-wrap gap-20 bg-orange !py-25 !px-20 max-sm:!py-13 max-sm:!px-4 h-full'}>
-
-
             <ProductDisplayCarousel />
 
             <div className={"max-[990px]:w-[clamp(600px,100%,1000px)] w-full mx-auto bg-white !p-12 rounded-[20px] border-3 border-black grid gap-8"}>
                 <RateStat starsClassName={'bg-orange-yellow'} />
 
                 <div className="grid gap-4">
-                    <h2 className='text-[50px] leading-[50px]'>VAREITY PACK</h2>
+                    <SectionHeading text={'VAREITY PACK'} className='text-[50px] leading-[50px] text-start'/>
+
                     <p className="text-[18px] leading-[28px]">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad architecto, odit recusandae vero sint corrupti
                     </p>

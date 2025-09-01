@@ -1,4 +1,5 @@
 
+import SectionHeading from '../components/Headings/Section';
 import Prerequisite from '../components/Prerequisite';
 import Spoiler from '../components/Spoiler';
 
@@ -32,9 +33,7 @@ const prerequesites = [
 const Prerequisites = () => {
     return (
         <section className='container-border grid place-items-center gap-12 !py-25 !px-20 max-sm:!py-13 max-sm:!px-4 '>
-            <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase">
-                CRAVIES NEVER MAKE THE BOWL WITHOUT...
-            </h2>
+            <SectionHeading text={'CRAVIES NEVER MAKE THE BOWL WITHOUT...'}  />
 
             <div className="flex flex-wrap overflow-hidden gap-10 justify-center my-8">
                 {prerequesites.map((prerequisite, index) => (

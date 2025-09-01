@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../components/Button'
 import Flavour from '../components/Flavour'
+import SectionHeading from '../components/Headings/Section';
 
 const FlavourData = [
     { text: 'Honey crunch', className: 'bg-orange' },
@@ -11,9 +12,7 @@ const FlavourData = [
 const Flavours = () => {
     return (
         <section className='grid place-items-center gap-12 !py-25 !px-20 max-sm:!py-13 max-sm:!px-4 '>
-            <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase">
-                PICK YOUR FLAVOUR
-            </h2>
+            <SectionHeading text={'PICK YOUR FLAVOUR'} />
 
             <div className="flex flex-wrap gap-6 justify-center my-8">
                 {FlavourData.map((flavour, index) => (
