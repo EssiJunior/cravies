@@ -3,7 +3,7 @@ import Star from './Star'
 
 const Testimonial = ({ className }) => {
     return (
-        <div className={'flex w-[600px] !p-6 gap-6 border-3 border-black rounded-[20px]' + ' ' + className}>
+        <div className={'flex max-md:flex-col max-md:w-fit w-[600px] !p-6 gap-6 border-3 border-black rounded-[20px]' + ' ' + className}>
             <div className="w-[240px] h-[280px] flex items-center justify-center border-3 border-black rounded-[20px] bg-black/20">
                 <span className="text-black font-bold text-xl">Image
                 </span>

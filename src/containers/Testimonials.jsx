@@ -10,7 +10,7 @@ const Testimonials = () => {
                 <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-center uppercase text-black !mt-4">
                     CREREALS, FEELINGS, CHAOS.
                 </h2>
-                <Button text='Build your bundle' className={'bg-orange'}/>
+                <Button text='Build your bundle' className={'bg-orange max-md:hidden'} />
             </div>
 
             <div className="flex overflow-hidden gap-10 justify-center my-8">
@@ -18,6 +18,8 @@ const Testimonials = () => {
                     <Testimonial key={index} />
                 ))}
             </div>
+
+            <Button text='Build your bundle' className={'bg-orange max-md:flex hidden'} />
         </section>
     )
 }

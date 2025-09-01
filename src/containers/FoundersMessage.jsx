@@ -5,7 +5,7 @@ import Button from '../components/Button'
 const FoundersMessage = () => {
     return (
         <section className='container-border grid grid-cols-2 max-[990px]:grid-cols-1 gap-20 bg-pink !py-25 !px-20 max-sm:!py-13 max-sm:!px-4  h-full'>
-            <div className="grid gap-8 max-w-[clamp(600px,100%,1000px)] ">
+            <div className="grid gap-8 max-w-[clamp(600px,100%,1000px)] max-md:order-2">
                 <p className='text-[18px] leading-[20px] font-bold'>FOUNDERS MSG</p>
                 <h2 className="font-wosker font-normal text-[64px] leading-[60px] tracking-normal text-start uppercase text-black">
                     MISS YOUR CEREAL CHILDHOOD?
@@ -18,7 +18,7 @@ const FoundersMessage = () => {
                     <Button text='Build your bundle' />
                 </div>
             </div>
-            <ImageCard />
+            <ImageCard className={'max-md:order-1'}/>
 
         </section>
     )
