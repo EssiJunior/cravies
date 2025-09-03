@@ -1,7 +1,7 @@
-import React from 'react'
 import Button from '../components/Button'
 import Icon from '../components/Icon'
 import { food, user } from '../assets/icons'
+import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
     { href: '/', label: 'Shop' },
@@ -10,22 +10,22 @@ const navLinks = [
 ];
 
 const Header = () => {
-    const currentPath = window.location.pathname;
+    const location = useLocation();
 
     return (
-        <nav className={`container flex items-center justify-between !py-4 !px-10 gap-10 ${currentPath === '/' ? 'bg-yellow' : 'bg-orange text-white'}`}>
+        <nav className={`container flex items-center justify-between !py-4 !px-10 gap-10 ${location.pathname === '/' ? 'bg-yellow' : 'bg-orange text-white'}`}>
             <a href="#">
                 <span className="font-bold text-4xl items-center">CRAVIES</span>
             </a>
             <ul className='flex flex-1 font-grotesk font-bold text-[16px] leading-[20px] tracking-normal align-middle gap-8 max-md:hidden'>
                 {navLinks.map(link => (
                     <li key={link.href}>
-                        <a
-                            href={link.href}
-                            className={currentPath === link.href ?  currentPath === '/' ? 'border-b-2 border-black !pb-1' : 'border-b-2 border-white !pb-1' : ''}
+                        <Link
+                            to={link.href}
+                            className={location.pathname === link.href ?  location.pathname === '/' ? 'border-b-2 border-black !pb-1' : 'border-b-2 border-white !pb-1' : ''}
                         >
                             {link.label}
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>
